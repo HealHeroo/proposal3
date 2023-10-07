@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cover - Free Bulma template</title>
+    <title>HealHero - Aplikasi Kesehatan</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,8 +20,8 @@
             <nav class="navbar">
                 <div class="container">
                     <div class="navbar-brand">
-                        <a class="navbar-item">
-                            <img src="../assets/img/maulraul.png" alt="Logo">
+                        <a class="navbar">
+                            <img src="../assets/img/US logo.png" alt="Logo">
                         </a>
                         <span class="navbar-burger burger" data-target="navbarMenu">
                             <span></span>
@@ -34,10 +34,8 @@
                             <div class="tabs is-right">
                                 <ul>
                                     <li><a href="../index.html">Home</a></li>
-                                    <li><a href="../pages/proposal.html">Proposal</a></li>
-                                    <li><a href="../pages/introvideo.html">Intro-Video</a></li>
-                                    <li><a href="../pages/contact.html">Contact Us</a></li>
-                                    <li class="is-active"><a href="../pages/aboutus.html">About Us</a></li>
+                                    <li><a href="../menu/video.html">Video</a></li>
+                                    <!-- <li class="is-active"><a href="../pages/aboutus.html">About Us</a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -48,167 +46,75 @@
         <div class="hero-body">
             <div class="container has-text-centered">
 
-                <!-- Tentang Kia -->
+                <!-- ISI BIODATA -->
                 <section class="section">
                     <div class="container has-text-centered">
-                        <h2 class="title">The Band</h2>
-                        <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                            laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            
+                        <h2 class="title">BIODATA TEAM</h2>
+                        <p>Kami merupakan mahasiswa jurusan D4 Teknik Informatika Universitas Logistik dan Bisnis Internasional.</p>
+        
                         <div class="columns is-centered" style="padding: 2rem">
+                            <!-- KIA -->
                             <div class="column">
                                 <div class="card">
                                     <div class="card-image">
                                         <figure class="image is-2by1">
-                                            <img src="https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Placeholder image">
+                                            <img src="../assets/img/kia.jpg"alt="Placeholder image">
                                         </figure>
                                     </div>
                                     <div class="card-content">
                                         <div class="media">
                                             <div class="media-content">
-                                                <p class="title is-4">John Smith</p>
-                                                <p class="subtitle is-6">@johnsmith</p>
+                                                <div id="user-info">
+                                                    <ul>
+                                                        <li><strong>Nama:</strong> <span id="kianames"></span></li>
+                                                        <li><strong>Kelas:</strong> <span id="kiakelas"></span></li>
+                                                        <li><strong>NPM:</strong> <span id="kianpm"></span></li>
+                                                        <li><strong>Instagram:</strong> <span id="kiainstagram"></span></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
             
                                         <div class="content">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                                            <a>@bulmaio</a>.
-                                            <a href="#">#css</a>
-                                            <a href="#">#responsive</a>
+                                            "Nothing is really work unless you would rather be doing something else."
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <!-- WITA -->
                             <div class="column">
                                 <div class="card">
                                     <div class="card-image">
                                         <figure class="image is-2by1">
-                                            <img src="https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Placeholder image">
+                                            <img src="../assets/img/wita.jpg"alt="Placeholder image">
                                         </figure>
                                     </div>
                                     <div class="card-content">
                                         <div class="media">
                                             <div class="media-content">
-                                                <p class="title is-4">John Smith</p>
-                                                <p class="subtitle is-6">@johnsmith</p>
+                                                <div id="user-info">
+                                                    <ul>
+                                                        <li><strong>Nama:</strong> <span id="witanames"></span></li>
+                                                        <li><strong>Kelas:</strong> <span id="witakelas"></span></li>
+                                                        <li><strong>NPM:</strong> <span id="witanpm"></span></li>
+                                                        <li><strong>Instagram:</strong> <span id="witainstagram"></span></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
             
                                         <div class="content">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                                            <a>@bulmaio</a>.
-                                            <a href="#">#css</a>
-                                            <a href="#">#responsive</a>
+                                            "Always do your best. What you plant now, you will harvest later."
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="column">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <figure class="image is-2by1">
-                                            <img src="https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Placeholder image">
-                                        </figure>
-                                    </div>
-                                    <div class="card-content">
-                                        <div class="media">
-                                            <div class="media-content">
-                                                <p class="title is-4">John Smith</p>
-                                                <p class="subtitle is-6">@johnsmith</p>
-                                            </div>
-                                        </div>
-            
-                                        <div class="content">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                                            <a>@bulmaio</a>.
-                                            <a href="#">#css</a>
-                                            <a href="#">#responsive</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     </div>
                 </section>
-                <!-- <div class="columns is-centered" style="padding: 2rem">
-                    <div class="column">
-                        <div class="card">
-                            <div class="card-image">
-                                <figure class="image is-2by1">
-                                    <img src="https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <div class="media">
-                                    <div class="media-content">
-                                        <p class="title is-4">John Smith</p>
-                                        <p class="subtitle is-6">@johnsmith</p>
-                                    </div>
-                                </div>
-    
-                                <div class="content">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                                    <a>@bulmaio</a>.
-                                    <a href="#">#css</a>
-                                    <a href="#">#responsive</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="column is-4">
-                        <figure class="image is-4by3">
-                            <img src="../assets/img/fotomaul.jpg" alt="Description">
-                        </figure>
-                    </div>
-                    <div class="column is-6 is-offset-1">
-                        <div id="user-info">
-                            <h1>User Information</h1>
-                            <ul>
-                                <li><strong>Nama:</strong> <span id="nama-maul"></span></li>
-                                <li><strong>Kelas:</strong> <span id="kelas-maul"></span></li>
-                                <li><strong>NPM:</strong> <span id="npm-maul"></span></li>
-                                <li><strong>Kontak:</strong> <span id="kontak-maul"></span></li>
-                            </ul>
-                        </div>
-                    </div> -->
-                </div>
-
-                <!-- Foto Raul About Raul -->
-                <div style="text-align: left;" class="columns is-centered">
-                    <div class="column is-4">
-                        <figure class="image is-4by3">
-                            <img src="../assets/img/fotoraul.jpg" alt="Description">
-                        </figure>
-                    </div>
-                    <div class="column is-6 is-offset-1">
-                        <div id="user-info">
-                            <h1>User Information</h1>
-                            <ul>
-                                <li><strong>Nama:</strong> <span id="nama-raul"></span></li>
-                                <li><strong>Kelas:</strong> <span id="kelas-raul"></span></li>
-                                <li><strong>NPM:</strong> <span id="npm-raul"></span></li>
-                                <li><strong>Kontak:</strong> <span id="kontak-raul"></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="hero-foot">
-            <div class="container">
-                <div class="tabs is-centered">
-                    <ul>
-                        <li><p>&copy; Copyright by Maulana and Raul</p></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+            
     <script type="module" src="../js/index.js"></script>
     <script type="module" src="../js/bulma.js"></script>
 </body>
