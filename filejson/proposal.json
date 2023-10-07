@@ -1,41 +1,13 @@
 {
-    "Judul": "Build and Deploy a Full Stack MERN Next.js 13 Threads App | React, Next JS, TypeScript, MongoDB",
-    "Proposal": "proyek 3",
-    "Ditunjukan": "Sebagai salah satu Syarat untuk Memperoleh Nilai Pada Kegiatan Proyek 2 Program Studi DIV Teknik Informatika",
-    "logo": "https://raw.githubusercontent.com/Fancyyy21/cobainrepo/main/assets/img/logoulbi.png",
-    "Program": "Studi Diploma IV Teknik Informatika Universitas Logistik dan Bisnis Internasional 2022",
-    "Abstrak": "Proyek ini bertujuan untuk mengembangkan aplikasi web berbasis MERN (MongoDB, Express, React, Node.js) dengan tambahan Next.js dan TypeScript. Aplikasi ini, yang disebut '13 Threads', dirancang untuk meningkatkan komunikasi dan kolaborasi di lingkungan kampus. Proyek ini akan memberikan pemahaman mendalam tentang pengembangan perangkat lunak modern kepada mahasiswa.",
-    "Deskripsi Aplikasi": "Aplikasi '13 Threads' adalah platform berbasis web yang dirancang untuk memfasilitasi komunikasi dan kolaborasi di lingkungan kampus. Ini memungkinkan pengguna untuk membuat, mengelola, dan berpartisipasi dalam berbagai jenis percakapan dan wadah kolaborasi dengan mudah. Aplikasi ini menggunakan teknologi terkini seperti React, Next.js, TypeScript, dan MongoDB untuk memastikan performa dan keamanan yang optimal.",
-    "Latar Belakang Masalah": "Dalam lingkungan pendidikan tinggi, komunikasi dan kolaborasi yang efektif sangat penting. Namun, seringkali, mahasiswa dan staf akademik menghadapi tantangan dalam mengelola informasi dan berkolaborasi. Oleh karena itu, ada kebutuhan untuk solusi berbasis web yang dapat meningkatkan efisiensi komunikasi dan kolaborasi di kampus.",
-    "Tujuan": [
-        "Mengimplementasikan konsep Full Stack Development dengan menggunakan teknologi terkini.",
-        "Menghasilkan aplikasi '13 Threads' yang dapat digunakan di lingkungan kampus untuk komunikasi dan kolaborasi.",
-        "Mendemonstrasikan kemampuan dalam membangun aplikasi berbasis MERN dengan MongoDB.",
-        "Memberikan mahasiswa pengalaman praktis dalam pengembangan perangkat lunak berbasis web."
-    ],
-    "Lingkup Dokumentasi": "Dokumentasi ini akan mencakup tahap pengembangan aplikasi '13 Threads' dari perencanaan hingga implementasi. Ini juga akan mencakup dokumentasi teknis, petunjuk pengguna, dan hasil yang diharapkan dari proyek ini.",
-    "Kajian Pustaka": "Kajian pustaka proyek ini akan mencakup literatur tentang pengembangan aplikasi web berbasis MERN, penggunaan Next.js dan TypeScript dalam pengembangan web, manajemen basis data dengan MongoDB, praktik terbaik dalam pengujian perangkat lunak, dan pengetahuan terkini dalam kolaborasi di lingkungan kampus.",
-    "Pembimbing": {
-        "Nama": "Nama Pembimbing Proyek",
-        "Jabatan": "Dosen Program Studi Teknik Informatika",
-        "Email": "pembimbing@example.com"
-    },
-    "TanggalMulai": "01 Januari 2023",
-    "TanggalSelesai": "31 Desember 2023",
-    "HasilProyek": "Proyek ini diharapkan menghasilkan aplikasi 13 Threads yang dapat digunakan untuk berbagai keperluan komunikasi dan kolaborasi dalam lingkungan kampus. Selain itu, proyek ini akan memperkuat pemahaman peserta tentang pengembangan perangkat lunak berbasis web.",
-    "Kontak": {
-        "Alamat": "Jl. Contoh Alamat No. 123",
-        "Telepon": "+62 123 4567 8901",
-        "Email": "kontak@example.com"
-    },
-    "Target Audience": "Proyek ini ditujukan kepada mahasiswa Program Studi DIV Teknik Informatika yang ingin memperdalam pengetahuan mereka tentang pengembangan aplikasi web dan teknologi terkini dalam industri perangkat lunak. Ini juga merupakan salah satu syarat untuk memperoleh nilai dalam Kegiatan Proyek 2 Program Studi DIV Teknik Informatika.",
-    "Fitur Utama": [
-        "Penggunaan React dan Next.js untuk mengembangkan antarmuka pengguna yang responsif dan interaktif.",
-        "Integrasi dengan MongoDB sebagai basis data untuk menyimpan dan mengelola data aplikasi.",
-        "Penggunaan TypeScript untuk meningkatkan keamanan dan kestabilan kode.",
-        "Pengembangan aplikasi 13 Threads yang menghadirkan pengalaman pengguna yang unik dan menarik.",
-        "Pengujian berkualitas tinggi untuk memastikan keandalan aplikasi.",
-        "Pelajari praktik terbaik dalam pengembangan perangkat lunak modern."
-    ],
-    "Manfaat": "Melalui proyek ini, mahasiswa akan memperoleh pemahaman mendalam tentang pengembangan aplikasi web berbasis MERN dan teknologi terkini dalam industri perangkat lunak. Mereka akan dapat mengembangkan kemampuan mereka dalam pengembangan perangkat lunak, pengujian, dan penyebaran aplikasi. Selain itu, proyek ini akan membantu mahasiswa memenuhi salah satu syarat untuk memperoleh nilai dalam Kegiatan Proyek 2 Program Studi DIV Teknik Informatika di Universitas Logistik dan Bisnis Internasional."
+  "Judul": "HealHero",
+  "Proposal": "proyek 3",
+  "Ditunjukan": "Sebagai salah satu Syarat untuk Memperoleh Nilai Pada Kegiatan Proyek 3 Program Studi DIV Teknik Informatika",
+  "Abstrak": "HealHero adalah sebuah aplikasi untuk meningkatkan kesadaran masyarakat akan pentingnya sebuah kesehatan dan kesejahteraan.Di era modern ini, akses cepat dan mudah ke informasi kesehatan sangat diperlukan bagi individu yang ingin menjaga gaya hidup sehat. Namun, terdapat beberapa tantangan dalam mencari dan mengakses informasi kesehatan yang akurat dan terpercaya Salah satu masalah utama adalah banjirnya informasi kesehatan di internet, yang seringkali tidak terverifikasi dan dapat membingungkan. Selain itu, tidak semua individu memiliki akses mudah ke tenaga medis atau sumber informasi kesehatan yang dapat diandalkan. Ini dapat menghambat upaya mereka untuk memahami dan mengelola kesehatan mereka dengan baik. Aplikasi HealHero bertujuan untuk mengatasi masalah ini dengan menyediakan platform yang menyediakan informasi kesehatan yang akurat, mudah diakses, dan terpercaya. Ini akan membantu individu dalam menjaga kesehatan mereka dan membuat keputusan yang lebih baik terkait dengan gaya hidup dan perawatan kesehatan mereka.",
+  "LatarBelakang": "Dalam era modern ini, kesadaran akan pentingnya kesehatan dan kesejahteraan semakin meningkat di kalangan masyarakat. Akses mudah dan cepat ke informasi kesehatan yang akurat sangat penting bagi individu yang ingin menjalani gaya hidup sehat. Namun, seringkali terdapat kendala dalam mencari dan mengakses sumber informasi kesehatan yang terpercaya. Terlalu banyaknya informasi yang tidak terverifikasi di internet dapat membingungkan dan merugikan.",
+  "Tujuan": [
+    "1. Meningkatkan Kesadaran Kesehatan: Aplikasi HealHero bertujuan untuk meningkatkan kesadaran kesehatan di kalangan masyarakat. Dengan menyediakan akses mudah ke informasi kesehatan yang akurat, pengguna dapat lebih sadar tentang pentingnya menjaga kesehatan mereka.",
+    "2. Memudahkan Akses ke Sumber Kesehatan: Aplikasi ini bertujuan untuk memudahkan akses pengguna ke sumber kesehatan, seperti dokter, rumah sakit, atau spesialis medis. Pengguna dapat mencari dan menghubungi penyedia layanan kesehatan dengan lebih mudah.",
+    "3. Mendorong Gaya Hidup Sehat: Aplikasi ini juga bertujuan untuk mendorong gaya hidup sehat. Ini dapat mencakup memberikan tips kesehatan, rekomendasi pola makan, dan program kebugaran yang sesuai.",
+    "4. Menyediakan Layanan Kesehatan Online: Dalam era digital, aplikasi HealHero juga bertujuan untuk menyediakan layanan kesehatan online, seperti konsultasi medis jarak jauh atau informasi kesehatan dalam bentuk teks, video, atau audio."
+  ]
 }
