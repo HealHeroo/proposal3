@@ -37,8 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
       proyekInfoDiv.appendChild(Abstrak);
       proyekInfoDiv.appendChild(LatarBelakang);
       proyekInfoDiv.appendChild(Tujuan);
-
-      // Anda dapat melanjutkan dengan menambahkan elemen-elemen lainnya sesuai dengan data JSON Anda.
     })
     .catch((error) => {
       console.error("Terjadi kesalahan saat mengambil data JSON:", error);
