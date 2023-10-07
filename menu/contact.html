@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cover - Free Bulma template</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Bulma Version 0.9.x -->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
+</head>
+
+<body>
+    <section class="hero is-fullheight is-default is-bold">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item">
+                            <img src="../assets/img/maulraul.png" alt="Logo">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenu" class="navbar-menu">
+                        <div class="navbar-end">
+                            <div class="tabs is-right">
+                                <ul>
+                                    <li><a href="../index.html">Home</a></li>
+                                    <li><a href="../pages/proposal.html">Proposal</a></li>
+                                    <li><a href="../pages/introvideo.html">Intro-Video</a></li>
+                                    <li class="is-active"><a href="../pages/contact.html">Contact Us</a></li>
+                                    <li><a href="../pages/aboutus.html">About Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns is-vcentered">
+                    
+                    <div class="contact">
+                        <form id="contact-form">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required><br><br>
+                
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br><br>
+                
+                            <label for="message">Message:</label><br>
+                            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                
+                    <div class="notification is-success">
+                        <button class="delete"></button>
+                        Form submitted successfully and API POST request successful!
+                    </div>
+                
+                    <div class="notification is-error">
+                        <button class="delete"></button>
+                        Error submitting form or API request!
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-foot">
+            <div class="container">
+                <div class="tabs is-centered">
+                    <ul>
+                        <li><p>&copy; Copyright by Maulana and Raul</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="../js/contact.js"></script>
+    <script type="module" src="../js/bulma.js"></script>
+</body>
+
+</html>

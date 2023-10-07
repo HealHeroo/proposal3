@@ -1,19 +1,29 @@
-.jumbotron {
-  padding-top: 6rem;
-  background-color: #e2edff;
+html,
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-#Hobby {
-  background-color: #e2edff;
-}
-#contact {
-  background-color: #e2edff;
-}
-
-#footer {
-  background-color: paleturquoise;
+img {
+  padding: 5px;
+  border: 2px solid #3498db; /* Ubah warna border */
+  border-radius: 10px;
+  width: 200px; /* Ubah lebar gambar */
+  object-fit: cover;
 }
 
-section {
-  padding-top: 5rem;
+.has-text-centered button {
+  border: 2px solid #e74c3c; /* Ubah warna border */
+  font-size: 20px; /* Ubah ukuran font */
+  background-color: #fff; /* Ubah warna latar belakang */
+  padding: 12px 20px; /* Ubah padding atas dan bawah, serta kiri dan kanan */
+  border-radius: 15px; /* Ubah radius border */
+  margin-top: 0; /* Hapus margin atas */
+  font-weight: bold; /* Tambahkan ketebalan font */
+  cursor: pointer;
+  color: #e74c3c; /* Ubah warna teks */
+}
+
+.has-text-centered button:hover {
+  background-color: #e74c3c; /* Ubah warna latar belakang saat hover */
+  color: #fff; /* Ubah warna teks saat hover */
 }
