@@ -5,7 +5,7 @@ body {
 
 img {
   padding: 5px;
-  border: 2px solid #3498db; /* Ubah warna border */
+  border: 2px solid #fff; /* Ubah warna border */
   border-radius: 10px;
   width: 200px; /* Ubah lebar gambar */
   object-fit: cover;
