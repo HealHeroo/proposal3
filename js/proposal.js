@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", async () => {
   try {
-    const response = await fetch('../json/proposal.json'); // Mengambil file .json
+    const response = await fetch("../json/proposal.json"); // Mengambil file .json
     if (!response.ok) {
-      throw new Error('Failed to fetch data');
+      throw new Error("Failed to fetch data");
     }
     const Data = await response.json();
 
@@ -35,8 +35,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     tujuan4Element.textContent = Data.Tujuan4;
     waktuElement.textContent = Data.Waktu;
     kesimpulanElement.textContent = Data.Kesimpulan;
-
   } catch (error) {
-    console.error('Error:', error);
-    }
-  });
+    console.error("Error:", error);
+  }
+});
