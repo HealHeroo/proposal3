@@ -5,8 +5,8 @@ body {
 
 img {
   padding: 5px;
-  border: 2px solid #fff; /* Ubah warna border */
-  border-radius: 10px;
+   /* Ubah warna border */
+  border-radius: 5px;
   width: 200px; /* Ubah lebar gambar */
   object-fit: cover;
 }
@@ -26,4 +26,22 @@ img {
 .has-text-centered button:hover {
   background-color: #e74c3c; /* Ubah warna latar belakang saat hover */
   color: #fff; /* Ubah warna teks saat hover */
+}
+
+/* CSS untuk mengatur tata letak */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-lg-6 {
+  flex: 1;
+}
+
+.image-container {
+  text-align: center; /* Untuk mengatur gambar di tengah */
+}
+
+.text-container {
+  padding: 20px; /* Untuk memberikan ruang di sekitar teks */
 }
