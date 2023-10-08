@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
     try {
-      const response = await fetch('../filejson/kia.json'); // Mengambil file userData.json
+      const response = await fetch('../json/kia.json'); // Mengambil file userData.json
       if (!response.ok) {
         throw new Error('Failed to fetch data');
       }
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 document.addEventListener("DOMContentLoaded", async () => {
   try {
-    const response = await fetch('../filejson/wita.json'); // Mengambil file userData.json
+    const response = await fetch('../json/wita.json'); // Mengambil file userData.json
     if (!response.ok) {
       throw new Error('Failed to fetch data');
     }

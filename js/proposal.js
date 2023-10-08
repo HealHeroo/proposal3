@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const proyekInfoDiv = document.getElementById("proyek-info");
 
   // Menggunakan URL relatif untuk mengambil file JSON dari folder yang sama
-  const url = "../filejson/proposal.json";
+  const url = "../json/proposal.json";
 
   // Mengambil data JSON menggunakan fetch
   fetch(url)
